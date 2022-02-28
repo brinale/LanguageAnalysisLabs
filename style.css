@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(215, 179, 248);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+h1{
+    display: block;
+    text-align: center;
+}
+.author-name{
+    margin-top: 30px;
+}
+.task-title{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    background-color:rgb(207, 207, 207);
+    width: 400px;
+    height: 200px;
+}
+.task-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(26, 151, 110);
+    margin-top: 10px;
+}
